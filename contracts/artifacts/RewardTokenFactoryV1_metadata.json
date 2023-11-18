@@ -1,0 +1,171 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					}
+				],
+				"name": "CreateRewardToken",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_supply",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "marketing_wallet",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "dev_wallet",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "buy_marketing_fees",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "sell_marketing_fees",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "buy_liquidity_fee",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "sell_liquidity_fee",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "buy_rewards_fee",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "sell_rewards_fee",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "transfer_fee",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct RewardTokenV1.Fees",
+						"name": "fees",
+						"type": "tuple"
+					},
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"name": "createRewardToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tokens",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RewardTokenFactoryV1.sol": "RewardTokenFactoryV1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 1
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RewardTokenFactoryV1.sol": {
+			"keccak256": "0x401acd70fd67749420cac2626b13e342a2378bc59b50481e673b1f8fc13ba1dd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c81a7d1f6241c7e0ac1373aa1b52e020de8f8dea06a68ba198fac2408662cd88",
+				"dweb:/ipfs/QmPETBcyxkeTFgEubJShtJTrcYw8A69bzhxYTGF6bJpWGp"
+			]
+		},
+		"contracts/RewardTokenV1.sol": {
+			"keccak256": "0x418d3eea0e47700f3311d67bfa0a5297dd8c46b9d5a197eeda6f2f81bed345f2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa59a10a76939b27c4df4687a90ef0557267aae69d90441404bb6677226e3fbc",
+				"dweb:/ipfs/QmNqo4rs54sozi1ZjF7g64YTGAVgFTXUNeRpaXK9Rdm9eD"
+			]
+		}
+	},
+	"version": 1
+}
