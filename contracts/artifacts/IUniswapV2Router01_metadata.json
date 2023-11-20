@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -770,24 +770,24 @@
 		"compilationTarget": {
 			"contracts/RewardTokenV1.sol": "IUniswapV2Router01"
 		},
-		"evmVersion": "london",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
 			"enabled": true,
-			"runs": 200
+			"runs": 1
 		},
 		"remappings": []
 	},
 	"sources": {
 		"contracts/RewardTokenV1.sol": {
-			"keccak256": "0x418d3eea0e47700f3311d67bfa0a5297dd8c46b9d5a197eeda6f2f81bed345f2",
+			"keccak256": "0x1a673c0ee77862a20891c53f8a446b325ef95ad7f848f796b3d2d08a87ee5953",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://aa59a10a76939b27c4df4687a90ef0557267aae69d90441404bb6677226e3fbc",
-				"dweb:/ipfs/QmNqo4rs54sozi1ZjF7g64YTGAVgFTXUNeRpaXK9Rdm9eD"
+				"bzz-raw://c9a5519eb1df0914fb8df184a4b61b1599eb2bb5f28faa7c0f97254356737116",
+				"dweb:/ipfs/QmRATfDu5d5bJ1NB3Y4qSu6C87vJkbZuSP3o2ouUZJcwYY"
 			]
 		}
 	},

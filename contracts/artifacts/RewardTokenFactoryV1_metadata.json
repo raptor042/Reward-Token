@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -138,7 +138,7 @@
 		"compilationTarget": {
 			"contracts/RewardTokenFactoryV1.sol": "RewardTokenFactoryV1"
 		},
-		"evmVersion": "london",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -151,19 +151,19 @@
 	},
 	"sources": {
 		"contracts/RewardTokenFactoryV1.sol": {
-			"keccak256": "0x401acd70fd67749420cac2626b13e342a2378bc59b50481e673b1f8fc13ba1dd",
+			"keccak256": "0x665a083bf7d616d3b5d8d039dfdcb8517fd2178958554f5fa611cde95ccf1b0e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c81a7d1f6241c7e0ac1373aa1b52e020de8f8dea06a68ba198fac2408662cd88",
-				"dweb:/ipfs/QmPETBcyxkeTFgEubJShtJTrcYw8A69bzhxYTGF6bJpWGp"
+				"bzz-raw://b24f5df64e4abcb0bf8c1c8c63990c0a7d6e304b46d3e094f5bb0ff34a9583a4",
+				"dweb:/ipfs/QmdbPYaCjmevsbn8miJjcLJSBxyDVcDPRUp3uGoDPxiTqz"
 			]
 		},
 		"contracts/RewardTokenV1.sol": {
-			"keccak256": "0x418d3eea0e47700f3311d67bfa0a5297dd8c46b9d5a197eeda6f2f81bed345f2",
+			"keccak256": "0xec546f930adc91255205850b46e595bda723b255201b73df51d6728b77d8c54e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://aa59a10a76939b27c4df4687a90ef0557267aae69d90441404bb6677226e3fbc",
-				"dweb:/ipfs/QmNqo4rs54sozi1ZjF7g64YTGAVgFTXUNeRpaXK9Rdm9eD"
+				"bzz-raw://d5528c6d594a91658d3dabdddf436685d1688232882493e81ef9c22eb6e55517",
+				"dweb:/ipfs/Qme4qneVaMgRvULquRsbS8ZVUfQ7q2dUubtKNPc8U9PguS"
 			]
 		}
 	},

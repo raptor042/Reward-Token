@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.7.6+commit.7338295f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,26 +18,26 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/RewardTokenV1.sol": "SafeMath"
+			"contracts/RewardTokensV1.sol": "SafeMath"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
 			"enabled": true,
-			"runs": 200
+			"runs": 1
 		},
 		"remappings": []
 	},
 	"sources": {
-		"contracts/RewardTokenV1.sol": {
-			"keccak256": "0x418d3eea0e47700f3311d67bfa0a5297dd8c46b9d5a197eeda6f2f81bed345f2",
+		"contracts/RewardTokensV1.sol": {
+			"keccak256": "0x37022883ec7771f80f8604f6e1515a27ab2761b1fbe16a1bc9f3ae639f6b31b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://aa59a10a76939b27c4df4687a90ef0557267aae69d90441404bb6677226e3fbc",
-				"dweb:/ipfs/QmNqo4rs54sozi1ZjF7g64YTGAVgFTXUNeRpaXK9Rdm9eD"
+				"bzz-raw://fe5b24ba3fd25f00ff61321088cb67548a51c42318708b4c626758e2d62addb6",
+				"dweb:/ipfs/QmeTQsqDmVM3PjTbEhPEBuVEQMHfQNZTzhBiNzsXauxWD2"
 			]
 		}
 	},
